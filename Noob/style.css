@@ -1,0 +1,95 @@
+html
+{
+	
+}
+
+body
+{
+	margin: 10px;
+	font-family: "Verdana", sans serif;
+	font-size: 12px;
+}
+
+div#banniere
+{
+	margin:0px;
+	padding: 0px;
+	width: 	994px;
+	height: 196px;
+	background-color: green;
+	border: black 3px double;
+	background-image: url('./Images/banniere.jpg');
+}
+
+div#menuGauche
+{
+	margin:0px;
+	padding: 10px;
+	width: 	204px;
+	height: 477px;
+	background-color: blue;	
+	background-image: url('./Images/bgMenuGauche.png');
+	border: black 3px double;
+	border-top: none;
+}
+
+div.banniereMenu
+{
+ 	width: 130px;
+ 	height: 40px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	border: black 1px solid;
+ 	background-image: url('./Images/bgBanniereMenu.png');
+ 	background-color: green;
+
+ 	color: black;
+ 	text-align: center;
+ 	font-weight: bold;
+ 	font-style: italic;
+ 	text-decoration:underline;
+ 	font-size: 28px;
+}
+
+ul.listeMenu
+{
+	margin-top: 12px;
+	margin-bottom: 12px;
+	padding-left:70px;
+}
+
+a.lienMenu
+{
+	color: lightblue;
+}
+
+p#copyright
+{
+	margin-top: 50px;
+	color: white;
+}
+
+div#corps
+{
+	margin:0px;
+	padding: 10px;
+	width: 	747px;
+	height: 477px;
+	background-color: #E0EBF8;
+	background-image: url('./Images/bgCorps.png');
+
+	border-right: black 3px double;
+	border-bottom: black 3px double;
+	border-top: none;
+	border-left: none;
+
+	position: absolute;
+	left: 240px;
+	top: 212px;
+	overflow: auto;
+}
+
+
+
+
+
